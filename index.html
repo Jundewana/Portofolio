@@ -1,0 +1,444 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portofolio</title>
+
+  <link rel="stylesheet" href="./assets/styles/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar" data-aos="zoom-in">
+      <div class="logo-title" data-aos="zoom-in-up" >
+        <span class="title">Portofolio</span>
+      </div>
+      <div class="hamburger" >&#9776;</div>
+
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#personal-info">Personal Info</a></li>
+        <li><a href="#devices">Devices</a></li>
+        <li><a href="#staff">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="jumbotron" data-aos="zoom-in">
+      <h1 id="jumbotron-title">Welcome to My Website</h1>
+      <p id="jumbotron-description">Experience the best of my work</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+
+    <div class="container" data-aos="zoom-in-up">
+      <div id="content" data-aos="zoom-in-up">
+        <article class="card" id="about" data-aos="zoom-in-up">
+          <h2>About Me</h2>
+          <hr />
+          <div class="model-container" data-aos="zoom-in-up">
+            <model-viewer
+              alt="Komputer"
+              src="/assets/3d/ameame.glb"
+              shadow-intensity="1"
+              camera-controls
+              touch-action="pan-y">
+            </model-viewer>
+          </div>
+          <p class="text-center" data-aos="zoom-in-up">Hi! I'm a tech enthusiast who has been captivated by the evolution of technology since childhood. My interests lie in exploring the world of computers, playing video games, and diving into comics. I've always aspired to pursue a master's degree in computer science, where I can deepen my knowledge and skills. Currently, I focus on back-end development, artificial intelligence, and embedded systems, constantly seeking to innovate and contribute to the tech landscape. I believe in the power of technology to transform lives, and I'm excited about the possibilities that lie ahead.</p>
+        
+        </article>
+
+        <article class="card" id="skills" data-aos="zoom-in-up">
+          <h2>Skills</h2>
+          <hr />
+          
+          <h4 class="text-center" data-aos="zoom-in-up">Programming Languages</h4>
+          <div class="skills" data-aos="zoom-in-up">
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/html5.svg" alt="HTML5" class="skill-icon" />
+              <span>HTML5</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/css3.svg" alt="CSS3" class="skill-icon" />
+              <span>CSS3</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/javascript.svg" alt="JavaScript" class="skill-icon" />
+              <span>JavaScript</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/cplusplus.svg" alt="CPP" class="skill-icon" />
+              <span>C++</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/nodedotjs.svg" alt="Node.js" class="skill-icon" />
+              <span>Node.js</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/python.svg" alt="Python" class="skill-icon" />
+              <span>Python</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="assets/images/pascal.svg" alt="Pascal" class="skill-icon" />
+              <span>Pascal</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/php.svg" alt="PHP" class="skill-icon" />
+              <span>PHP</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://img.icons8.com/?size=100&id=103144&format=png&color=000000" alt="Java" class="skill-icon" />
+              <span>Java</span>
+            </div>
+          </div>
+
+          <h4 class="text-center" data-aos="zoom-in-up">Frameworks</h4>
+          <div class="skills" data-aos="zoom-in-up">
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/bootstrap.svg" alt="Bootstrap" class="skill-icon" />
+              <span>Bootstrap</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/django.svg" alt="Django" class="skill-icon" />
+              <span>Django</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/flask.svg" alt="Flask" class="skill-icon" />
+              <span>Flask</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/laravel.svg" alt="Laravel" class="skill-icon" />
+              <span>Laravel</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/flutter.svg" alt="Flutter" class="skill-icon" />
+              <span>Flutter</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/pytorch.svg" alt="PyTorch" class="skill-icon" />
+              <span>PyTorch</span>
+            </div>
+          </div>
+
+          <h4 class="text-center" data-aos="zoom-in-up">Databases</h4>
+          <div class="skills" data-aos="zoom-in-up">
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/mysql.svg" alt="MySQL" class="skill-icon" />
+              <span>MySQL</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/mariadb.svg" alt="MariaDB" class="skill-icon" />
+              <span>MariaDB</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/mongodb.svg" alt="MongoDB" class="skill-icon" />
+              <span>MongoDB</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/sqlite.svg" alt="SQLite" class="skill-icon" />
+              <span>SQLite</span>
+            </div>
+          </div>
+
+          <h4 class="text-center" data-aos="zoom-in-up">Tools</h4>
+          <div class="skills" data-aos="zoom-in-up">
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/git.svg" alt="Git" class="skill-icon" />
+              <span>Git</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/figma.svg" alt="Figma" class="skill-icon" />
+              <span>Figma</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://img.icons8.com/?size=100&id=ENnBBPpfkhH1&format=png&color=000000" alt="VS Code" class="skill-icon" />
+              <span>VS Code</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/androidstudio.svg" alt="AndroidStudio" class="skill-icon" />
+              <span>Android Studio</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/arduino.svg" alt="Arduino" class="skill-icon" />
+              <span>Arduino IDE</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/wireshark.svg" alt="Wireshark" class="skill-icon" />
+              <span>Wireshark</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/sketchup.svg" alt="Sketchup" class="skill-icon" />
+              <span>SketchUp</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/autodesk.svg" alt="Eagle" class="skill-icon" />
+              <span>Eagle Autodesk</span>
+            </div>
+            <!-- diagrams.net -->
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/diagramsdotnet.svg" alt="Diagrams.net" class="skill-icon" />
+              <span>Draw.io</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/xampp.svg" alt="XAMPP" class="skill-icon" />
+              <span>XAMPP</span>
+            </div>
+            <div class="skill" data-aos="zoom-in-up">
+              <img src="https://simpleicons.org/icons/meta.svg" alt="XAMPP" class="skill-icon" />
+              <span>Meta Spark</span>
+            </div>
+          </div>
+
+        </article>
+
+        <article class="card" id="projects" data-aos="zoom-in-up">
+          <h2 data-aos="zoom-in-up">Projects</h2>
+          <hr />
+
+          <div class="projects" data-aos="zoom-in-up">
+            <div class="project" data-aos="zoom-in-up">
+              <img src="./assets/images/discordbot.jpeg" alt="Project 1" class="project-img" data-aos="zoom-in-up" />
+              <div class="project-text" data-aos="zoom-in-up">
+                <h3>Bot Discord AI</h3>
+                <p>
+                  A simple Discord bot built with Node.js.
+                </p>
+                <a rel="noopener" href="https://github.com/Jundewana/botdiscordAI" class="btn btn-block" target="_blank">View Project</a>
+              </div>
+            </div>
+
+            <div class="project" data-aos="zoom-in-up">
+              <img src="./assets/images/quizsense.png" alt="Project 2" class="project-img" data-aos="zoom-in-up"/>
+              <div class="project-text" data-aos="zoom-in-up">
+                <h3>Quizsense</h3>
+                <p>
+                  Interactive quiz tool for blind users based on Raspberry Pi.
+                </p>
+                <a rel="noopener" href="https://netradapt.com/" class="btn btn-block" target="_blank">View Project</a>
+              </div>
+            </div>
+
+            <div class="project" data-aos="zoom-in-up">
+              <img src="./assets/images/pxg.jpg" alt="Project 3" class="project-img" data-aos="zoom-in-up"/>
+              <div class="project-text" data-aos="zoom-in-up">
+                <h3>Media Pembelajaran Digital</h3>
+                <p>
+                  Sorting and Queue Algorithm Game using Pixel Game Maker MV.
+                </p>
+                <a rel="noopener" href="https://ejurnal.teknokrat.ac.id/index.php/teknokompak/article/view/3888" class="btn btn-block" target="_blank">View Project</a>
+              </div>
+            </div>
+
+            <div class="project" data-aos="zoom-in-up">
+              <img src="./assets/images/MEKATRON.png" alt="Project 4" class="project-img" data-aos="zoom-in-up" />
+              <div class="project-text" data-aos="zoom-in-up">
+                <h3>DC Motor into a Servo Motor</h3>
+                <p>
+                  Converts DC motor to servo using Atmega328P for precision.
+                </p>
+                <a rel="noopener" href="https://drive.google.com/drive/folders/14-674jnnX5wMaVyRxkMQaTf67U0NrdQr?usp=sharing" class="btn btn-block" target="_blank">View Project</a>
+              </div>
+            </div>
+
+            <div class="project" data-aos="zoom-in-up">
+              <img src="./assets/images/RE.png" alt="Project 5" class="project-img" data-aos="zoom-in-up"/>
+              <div class="project-text" data-aos="zoom-in-up">
+                <h3>Digital Clock</h3>
+                <p>
+                  Simple Digital Clock using PIC16F84A Microcontroller.
+                </p>
+                <a rel="noopener" href="https://drive.google.com/drive/folders/1zVaoC7RjSIcHKB2o1cRVsRyRsIjCCzmj?usp=sharing" class="btn btn-block" target="_blank">View Project</a>
+              </div>
+            </div>
+
+            <div class="project" data-aos="zoom-in-up">
+              <img src="./assets/images/SBK.jpg" alt="Project 6" class="project-img" data-aos="zoom-in-up" />
+              <div class="project-text" data-aos="zoom-in-up">
+                <h3>Light Intensity Monitor</h3>
+                <p>
+                  Light Intensity Monitoring Tool based on ATMega328P with BH1750 Sensor.
+                </p>
+                <a rel="noopener" href="https://drive.google.com/drive/folders/1-0wb84JSVH4DS5AC_zrG93enfXPMwggV?usp=drive_link" class="btn btn-block" target="_blank">View Project</a>
+              </div>
+            </div>
+
+            <div class="project" data-aos="zoom-in-up">
+              <img src="./assets/images/plat.png" alt="Project 7" class="project-img" data-aos="zoom-in-up" />
+              <div class="project-text" data-aos="zoom-in-up">
+                <h3>License Plate Detection</h3>
+                <p>
+                  Developed a vehicle license plate detection system using YOLOv8.
+                </p>
+                <a rel="noopener" href="https://github.com/Jundewana/Java-Interactive-Learning-Tool" class="btn btn-block" target="_blank">View Project</a>
+              </div>
+            </div>
+
+            <div class="project" data-aos="zoom-in-up">
+              <img src="./assets/images/hotel.jpg" alt="Project 8" class="project-img" data-aos="zoom-in-up"/>
+              <div class="project-text" data-aos="zoom-in-up">
+                <h3>Hotel Management System</h3>
+                <p>
+                  An integrated system for managing hotel operations, including bookings, check-ins, and billing. It streamlines processes, enhances guest experience, and optimizes resource management.
+                </p>
+                <a rel="noopener" href="https://github.com/Jundewana/HotelManagementSystem" class="btn btn-block" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://github.com/Jundewana" data-aos="zoom-in-up" class="btn btn-block">Coming Soon</a>
+        </article data-aos="zoom-in-up">
+      </div>
+
+      <aside>
+        <article class="card aside-content" id="personal-info" data-aos="zoom-in-up">
+          <h2>Personal Information</h2>
+          <hr />
+          <div class="about-me" data-aos="zoom-in-up">
+            <img src="./assets/images/avatar.jpeg" alt="My Name" class="profile-img" data-aos="zoom-in-up" />
+            <div class="about-me-text" data-aos="zoom-in-up">
+              <p><strong>Name:</strong> Muhamad Arjun Dewana</p>
+              <p><strong>Role:</strong> COO</p>
+              <p><strong>Location:</strong> Indonesia</p>
+              <p><strong>Language:</strong> Sundanese, Indonesian, English</p>
+              <p><strong>Hobby:</strong> Gaming, Reading Manga, Playing Computer</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card aside-content" id="devices" data-aos="zoom-in-up">
+          <h2>My Devices</h2>
+          <hr />
+            <div class="device" data-aos="zoom-in-up">
+              <div class="device-text" data-aos="zoom-in-up">
+                <h3>Laptop 💻</h3>
+                <p>
+                  <ul>
+                    <li><strong>Model</strong>: LENOVO V14-IIL</li>
+                    <li><strong>Processor</strong>: Intel Core i5-1035G1</li>
+                    <li><strong>RAM</strong>: 12GB DDR4 3200MHz</li>
+                    <li><strong>Storage</strong>: 512GB NVMe SSD</li>
+                    <li><strong>OS</strong>: Windows 11</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+
+            <div class="device" data-aos="zoom-in-up">
+              <div class="device-text" data-aos="zoom-in-up">
+                <h3>Phone 📱</h3>
+                <p>
+                  <ul>
+                    <li><strong>Model</strong>: POCO X6 5G</li>
+                    <li><strong>Processor</strong>: Snapdragon 7s Gen 2</li>
+                    <li><strong>RAM</strong>: 12GB</li>
+                    <li><strong>Storage</strong>: 256GB</li>
+                    <li><strong>OS</strong>: Android 14</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+        </article>
+        
+        <article class="card aside-content" id="staff" data-aos="zoom-in-up">
+          <h2>Netradapt Startup Team</h2>
+          <hr />
+          <ul data-aos="zoom-in-up">
+            <li data-aos="zoom-in-up">
+              <h3>Muhammad Salam Pararta</h3>
+              <p><strong>Role:</strong> CEO, CTO</p>
+              <p><strong>Location:</strong> Indonesia</p>
+              <p>
+              <p><strong>Instagram:</strong> <a href="https://www.instagram.com/salamp.png/" target="_blank">salamp.png</a></p>
+            </p>
+          </li >
+              <li data-aos="zoom-in-up">
+                  <h3>Rajih Nibras Maulana</h3>
+                  <p><strong>Role:</strong> CO-Founder </p>
+                  <p><strong>Location:</strong> Indonesia</p>
+                  <p><strong>Instagram:</strong> <a href="https://www.instagram.com/rajih.nm/" target="_blank">@rajih.nm</a></p>
+              </li>
+
+              <li data-aos="zoom-in-up">
+                  <h3>Ikhsan Fauzan Aziim</h3>
+                  <p><strong>Role:</strong> CFO</p>
+                  <p><strong>Location:</strong> Indonesia</p>
+                  <p><strong>Instagram:</strong> <a href="https://www.instagram.com/ikhsanfauzan28/" target="_blank">@ikhsanfauzan28</a></p>
+              </li>
+              <li data-aos="zoom-in-up">
+                <h3>Muhammad Nazlan Rizqon</h3>
+                <p><strong>Role:</strong> CMO</p>
+                <p><strong>Location:</strong> Indonesia</p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/nazlanrizqon/" target="_blank">@nazlanrizqon</a></p>
+              </li>
+              <!-- Tambahkan lebih banyak anggota tim sesuai kebutuhan -->
+          </ul>
+        </article>
+
+        <article class="card aside-content" id="client" data-aos="zoom-in-up">
+          <h2>Client</h2>
+          <hr />
+          <p>Kami bangga bisa bekerja sama dengan client berikut yang mempercayai Netradapt sebagai mitra mereka. Terima kasih atas dukungannya!</p>
+          <div class="logo-container">
+            <img src="./assets/images/SLB_Logo.jpg" alt="Logo Client 1" width="20%">
+            <!-- Tambahkan lebih banyak logo sesuai kebutuhan -->
+          </div>
+        </article>
+      </aside>
+    </div>
+  </main>
+
+
+  <footer class="footer-content" >
+    <div class="socials" id="socials" data-aos="zoom-in-up">
+      <ul>
+        <li>
+          <a rel="noopener" href="https://github.com/Jundewana" target="_blank">
+            <img src="https://simpleicons.org/icons/github.svg" alt="GitHub" class="social-icon" />
+            <span>Github</span>
+          </a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://www.instagram.com/jundewana/" target="_blank">
+            <img src="https://simpleicons.org/icons/instagram.svg" alt="Instagram" class="social-icon" />
+            <span>Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://www.linkedin.com/in/jundewana/" target="_blank">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkgMGgtMTRjLTIuNzYxIDAtNSAyLjIzOS01IDV2MTRjMCAyLjc2MSAyLjIzOSA1IDUgNWgxNGMyLjc2MiAwIDUtMi4yMzkgNS01di0xNGMwLTIuNzYxLTIuMjM4LTUtNS01em0tMTEgMTloLTN2LTExaDN2MTF6bS0xLjUtMTIuMjY4Yy0uOTY2IDAtMS43NS0uNzktMS43NS0xLjc2NHMuNzg0LTEuNzY0IDEuNzUtMS43NjQgMS43NS43OSAxLjc1IDEuNzY0LS43ODMgMS43NjQtMS43NSAxLjc2NHptMTMuNSAxMi4yNjhoLTN2LTUuNjA0YzAtMy4zNjgtNC0zLjExMy00IDB2NS42MDRoLTN2LTExaDN2MS43NjVjMS4zOTYtMi41ODYgNy0yLjc3NyA3IDIuNDc2djYuNzU5eiIvPjwvc3ZnPg==" alt="LinkedIn" class="social-icon" />
+            <span>LinkedIn</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    
+    <p >&copy; 2024 JunDewana</p>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Import the component -->
+  <script
+  type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+  
+  
+</body>
+
+</html>
