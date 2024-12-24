@@ -13,7 +13,7 @@ Ini adalah portofolio saya yang berisi proyek-proyek dan informasi tentang saya 
 
 ## Cara Menggunakan
 
-Buka `index.html` atau 'https://jundewana.github.io/Portofolio/' di browser untuk melihat portofolio saya.
+Buka `index.html` atau https://jundewana.github.io/Portofolio di browser untuk melihat portofolio saya.
 
 ## Kontak
 
