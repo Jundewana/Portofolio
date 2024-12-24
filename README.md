@@ -5,7 +5,6 @@ Ini adalah portofolio saya yang berisi proyek-proyek dan informasi tentang saya 
 ## Struktur Proyek
 
 - `assets/`: Berisi aset-aset seperti model 3D, gambar, skrip JavaScript, dan stylesheet CSS.
-  - `3d/`: Model 3D dan tekstur.
   - `images/`: Gambar-gambar yang digunakan dalam portofolio.
   - `js/`: Skrip JavaScript.
   - `styles/`: Stylesheet CSS.
